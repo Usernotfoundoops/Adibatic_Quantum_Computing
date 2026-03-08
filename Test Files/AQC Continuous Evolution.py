@@ -55,32 +55,7 @@ for i, t in enumerate(t_list):
     vector_distance = diff_vector.norm()
     errors_norm.append(vector_distance)
 
-# # Plotting
-# fig, ax1 = plt.subplots(figsize=(10, 6))
-#
-# ax1.set_xlabel('Time ($t$)', fontsize=12)
-# ax1.set_ylabel('Adiabatic Error ($1 - F$)', color='tab:red', fontsize=12)
-# ax1.plot(t_list, errors_fidelity, color='tab:red', label='Adiabatic Error')
-# ax1.set_yscale('log')
-# ax1.tick_params(axis='y', labelcolor='tab:red')
-#
-# ax2 = ax1.twinx()
-# ax2.set_ylabel(r'Energy Gap ($\Delta E$)', color='tab:blue', fontsize=12)
-# ax2.plot(t_list, gap, color='tab:blue', linestyle='--', label='Energy Gap')
-# ax2.tick_params(axis='y', labelcolor='tab:blue')
-#
-# fig.tight_layout()
-# plt.title(f'Adiabatic Error and Energy Gap for $T={T}$ (Linear Ramp)', fontsize=14)
-# plt.legend([ax1.lines[0], ax2.lines[0]], ['Adiabatic Error', 'Energy Gap'], loc='upper center')
-#
-# plt.show()
-
-# f_t_values = f(t_list, args)
-#
-# fig,ax3=plt.subplots()
-# ax3.plot(t_list,f_t_values)
-# plt.show()
-
+# Plotting
 fig, ax1 = plt.subplots(figsize=(10, 6))
 
 ax1.set_xlabel('Time ($t$)', fontsize=12)
