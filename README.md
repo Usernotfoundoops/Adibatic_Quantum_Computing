@@ -15,7 +15,7 @@ Yet to be implemented:
 The time-dependent Hamiltonian takes the form:
   H(s) = [1 - f(s)] * H_0  +  f(s) * H_1,   s = t/T in [0, 1] with linear scheduling f(s) = s.
 
-================================================================================
+
 FOLDER STRUCTURE 
 ================================================================================
 ```
@@ -47,7 +47,7 @@ Usernotfoundoops/Adibatic_Quantum_Computing  [branch: Different-Implementation]
         └── Recreate environment with: pip install -r requirements.txt
 ```
 
-================================================================================
+
 WORKFLOW - HOW TO REPRODUCE RESULTS
 ================================================================================
 
@@ -96,7 +96,7 @@ STEP 5 - Analytical error bounds
   - If different scheduling function f(s) is used then its first derivative and second derivative of H has to be calculated manually and inserted into each simulation. As long as f(s) is linear this comment can be ignored.
   - Different error bounds can be implemented by changing the "total_equation" line.
   
-================================================================================
+
 SOFTWARE AND LIBRARY DEPENDENCIES
 ================================================================================
 
@@ -113,7 +113,7 @@ Optional:
   qutip          >= 5.0.0     # Quantum system simulation and state evolution\
   sympy          >= 1.12.0    # Integration
 
-================================================================================
+
 CONTACT
 ================================================================================
 
@@ -121,4 +121,4 @@ CONTACT
   Email   : pravin.mani@fau.de\
   Date    : 08-03-2026
 
-================================================================================
+
